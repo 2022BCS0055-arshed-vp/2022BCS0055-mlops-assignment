@@ -1,0 +1,23 @@
+artifact_path: file:///C:/Users/arshe/OneDrive/Desktop/mlops-project/2022BCS0055-mlops-assignment/mlruns/1/models/m-0f883b8e2be34be39bb5d2365c147a54/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.0
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.1
+    skops_trusted_types: null
+mlflow_version: 3.10.1
+model_id: m-0f883b8e2be34be39bb5d2365c147a54
+model_size_bytes: 835
+model_uuid: m-0f883b8e2be34be39bb5d2365c147a54
+prompts: null
+run_id: 2112a108a63e46c8a709046f18e8bd1b
+utc_time_created: '2026-04-01 07:49:47.473903'
